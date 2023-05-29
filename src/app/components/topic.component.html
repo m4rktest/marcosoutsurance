@@ -1,0 +1,17 @@
+<div *ngIf="dataList!=null; else elseBlock">
+  <mat-accordion>
+    <mat-expansion-panel *ngFor="let aItem of dataList">
+      <mat-expansion-panel-header>
+          <mat-panel-title>
+              <h2>{{aItem.title}}</h2>
+          </mat-panel-title>
+      </mat-expansion-panel-header>
+      <a href="{{aItem.link}}" target="_blank">{{aItem.link}}</a>                 
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
+<ng-template #elseBlock>
+  <div class="spinner-frame">
+    <mat-spinner></mat-spinner>
+  </div>
+</ng-template>
