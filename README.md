@@ -1,4 +1,4 @@
-# marcosoutsurance
+# marcos-assessment-outsurance
 Simple app that fetching data from StackOverflow public API
 Angular material used for layout and print the top 10 Stackoverflow topics and simple navbar
 .spec files to test app.component and api.service calls
