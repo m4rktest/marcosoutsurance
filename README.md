@@ -1,14 +1,14 @@
 # marcos-assessment-outsurance
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
+
 Simple app that fetching data from StackOverflow public API Angular material used for layout and print the top 10 Stackoverflow topics 
-and simple navbar .spec files to test app.component and api.service calls Further enhancements could be put some search box on order 
-to find out coincidences or filter out by technologies or progamming language even refresh api call after some time for updates 
-or check any other exposed end points
+and simple navbar.
+Further enhancements could be put some search box on order to find out coincidences or filter out by technologies or progamming language even refresh api call after some time for updates or check any other exposed end points.
 
 
 ## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Put DIST folder on your localhost or launch npm start from your IDE to create node_modules folder and test the solution on your local.
+Run `ng serve` for a dev server. Navigate to `http://localhost:XXXX/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -21,6 +21,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ng test(.spec) files to test app.component and api.service calls
 
 ## Running end-to-end tests
 
